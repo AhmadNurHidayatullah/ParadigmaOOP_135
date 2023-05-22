@@ -36,9 +36,14 @@ public:
         return "Halloo, nama saya " + nama + " dari sekolah " + sekolah;
     }
 };
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    pelajar siswa1("Ahmad ganteng", "SMAN 1 Jakarta");
+    cout << siswa1.perkenalan();
+    cout << "hasil = " << siswa1.jumlah(10, 90) << endl;
+
+    return 0;
 }
 
 
