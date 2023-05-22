@@ -4,18 +4,18 @@
 class ibu {
 public:
 	string nama;
-	vector<anak*> daftar_anak;
+	vector<Anak*> daftar_anak;
 
 	ibu(string pNama) :nama(pNama) {
 		cout << "ibu \"" << nama << "\" ada\n";
 	}
 	~ibu() {
-		cout << "ibu \"" << nama << "\" tidak ada\n;
+		cout << "ibu \"" << nama << "\" tidak ada\n";
 	}
-	void tambahAnak(anak*);
+	void tambahAnak(Anak*);
 	void cetakAnak();
 };
-void ibu::tambahAnak(anak* pAnak) {
+void ibu::tambahAnak(Anak* pAnak) {
 	daftar_anak.push_back(pAnak);
 }
 void ibu::cetakAnak() {

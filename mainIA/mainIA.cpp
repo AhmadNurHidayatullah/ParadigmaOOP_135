@@ -8,14 +8,14 @@ using namespace std;
 int main() {
 	ibu* varibu = new ibu("dini");
 	ibu* varibu2 = new ibu("novi");
-	anak* varAnak1 = new anak("tono");
-	anak* varAnak2 = new anak("rini");
-	anak* varAnak3 = new anak("dewi");
+	Anak* varAnak1 = new Anak("tono");
+	Anak* varAnak2 = new Anak("rini");
+	Anak* varAnak3 = new Anak("dewi");
 
 	varibu->tambahAnak(varAnak1);
 	varibu->tambahAnak(varAnak2);
 	varibu->tambahAnak(varAnak3);
-	varibu->tambahAnak(varAnak4);
+	varibu->tambahAnak(varAnak1);
 
 	varibu->cetakAnak();
 	varibu2->cetakAnak();
