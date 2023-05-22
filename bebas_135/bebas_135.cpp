@@ -44,6 +44,6 @@ int main()
     cout << "hasil = " << siswa1.jumlah(10, 90) << endl;
 
     return 0;
-}
+}   
 
 
